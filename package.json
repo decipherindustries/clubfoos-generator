@@ -6,8 +6,10 @@
   "preferGlobal": true,
   
   "bin": {
-    "cf-generate-uuid": "./bin/clubfoos-generate-uuid",
-    "cf-generate-qr": "./bin/clubfoos-generate-qr"
+    "clubfoos-generate-uuid": "./bin/clubfoos-generate-uuid",
+    "clubfoos-generate-qr": "./bin/clubfoos-generate-qr",
+    "cf-uuid": "./bin/clubfoos-generate-uuid",
+    "cf-qr": "./bin/clubfoos-generate-qr"
   },
 
   "scripts": {
