@@ -4,7 +4,7 @@ clubfoos-generator
 Installation
 ------------
 1. Install the Node.js runtime: https://nodejs.org 
-2. In a terminal window, run: `npm install -g cf-generator
+2. In a terminal window, run: `npm install -g cf-generator`
 
 Usage
 -----
