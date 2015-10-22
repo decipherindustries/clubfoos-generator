@@ -1,0 +1,34 @@
+{
+  "name": "cf-generator",
+  "version": "0.1.0",
+  "description": "Club Foos QR code generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  
+  "bin": {
+    "cf-generate-uuid": "./bin/clubfoos-generate-uuid",
+    "cf-generate-qr": "./bin/clubfoos-generate-qr"
+  },
+
+  "scripts": {
+    "test": "DEBUG=clubfoos* node .",
+    "start": "node ."
+  },
+  
+  "keywords": [
+    "qr",
+    "code",
+    "generator"
+  ],
+  
+  "author": "Fabian Tollenaar <fabian@starting-point.nl>",
+  "license": "ISC",
+  
+  "dependencies": {
+    "cli": "^0.11.0",
+    "csv": "^0.4.6",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.3"
+  }
+}
